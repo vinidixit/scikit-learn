@@ -17,7 +17,7 @@ class PassiveAggressiveClassifier(BaseSGDClassifier):
     C : float
         Maximum step size (regularization). Defaults to 1.0.
 
-    fit_intercept : bool, default=False
+    fit_intercept : bool, default=True
         Whether the intercept should be estimated or not. If False, the
         data is assumed to be already centered.
 
